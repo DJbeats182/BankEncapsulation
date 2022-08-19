@@ -8,15 +8,15 @@ namespace BankEncaspulation
 {
     public class BankAccount
     {
-        private static double balance = 15_000;
+        private double _balance = 15_000;
         public double GetBalance()
         {
-            return balance;
+            return _balance;
         }
 
-        public static double DepositBalance(double amount)
+        public void Deposit(double amount)
         {
-           return balance += amount;
+            _balance += amount;
         }
 
         public static bool PinVerification(bool validCheck, int pin)

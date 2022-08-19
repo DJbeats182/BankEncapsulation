@@ -28,13 +28,13 @@ do
 
 Console.WriteLine("Enter in an amount to deposit:");
 double depositAmount = double.Parse(Console.ReadLine());
-BankAccount.DepositBalance(depositAmount);
+djsAccount.Deposit(depositAmount);
 Console.WriteLine($"Your new balance is: {djsAccount.GetBalance()}");
 
 
 //string pass = "";
 //Console.WriteLine("Please enter your PIN to get started:");
-//bool isNumber = int.TryParse(Console.ReadLine(),out int pin);
+//bool isNumber = int.TryParse(Console.ReadLine(), out int pin);
 //ConsoleKeyInfo key;
 
 //do
